@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive websites respond at that moment and scale with resizing regardless of what the pixel width is. They use one layout that changes based on size.
+Adaptive websites switch depending on pixel width, this makes sense for things like phones and tablets in regards to accessibility, appearance. Adaptive you have multiple versions of the website based on what the products width is. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is designing for phones and mobile devices first, it usually has the benefits of looking better than, running smoother than, and easier to use than a desktop first design that was scaled down. 
+Desktop first is designing for bigger screens. This type is better when a lot of the traffic comes from desktop users, the site has features that might be more demanding for some devices, or if your time or budget are limited.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It reduces the font size from 16px to 10px, this makes it easier to scale and control when using the rem method, which makes the fonts bigger, each rem is equal to 10 pixels when the pc is reduced to 10. Rem Is also relative to the html and not the parent. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+You know when you use a soda machine at a fast food place, and you can pick a soda, well that soda is CSS, but the soda isn’t all the machine offers, like you can pick flavors also, so you can add cherry flavor to your soda, that cherry flavor is the preprocessing. That cherry is not part of the normal soda, but it can definitely make it better! 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I really like the parametric mixin, it allows so much variety in a few lines of CSS. I think the concept that also gives me the most trouble is parametric mixin also. Its a love-hate relationships. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
