@@ -1,1 +1,10 @@
 // Mixins Here
+
+.button1(@background, @font-color){
+    background-color: @background;
+    color: @font-color;
+    &:hover{
+        background-color: @font-color;
+        color: @background;
+    }
+}
