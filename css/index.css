@@ -160,6 +160,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+h1 {
+  display: block;
+  margin: 0px auto;
+  font-size: 4rem;
+}
+.navdiv {
+  display: flex;
+  width: 100%;
+  background: #f4f4f4;
+  flex-direction: column;
+  text-align: center;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin-left: 30px;
+}
+@media (max-width:500px) {
+  nav a {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+.spaccepic {
+  display: block;
+  margin: 0px auto;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
