@@ -17,7 +17,30 @@
   .space-images {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+      width: 100%;
+      @media @phone {
+      justify-content: center;
+      } //closes.space-images
+    
+             .sky {
+              @media @phone{
+              display:none;
+                 }
+          } // closes.sky
+             .launch {
+              @media @phone{
+                 display:none;
+              }
+             }//closes.launch
+             .blast{
+              @media @phone{
+                  width: 100%;
+                  
+              }
+             } //.blastends
+    
+    
+    
 
     img {
       width: 28%;
@@ -45,9 +68,19 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+@media @phone{
+  display:flex;
+  flex-direction: column-reverse;
+}
+
 
     .walk-text {
       width: 50%;
+      @media @phone {
+        width: 100%;
+      }
+      
+    
 
       h3 {
         margin-bottom: 10px;
@@ -57,13 +90,30 @@
         margin-bottom: 26px;
       }
 
+      //my button code
+      
       .btn {
-      }
-    }
+        .button1(@btn-bg-color, @porcelain);
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 12px;
+        width: 120px;
+        @media @phone {
+          width: 100%;
+        }
+        
+      }//.button1 ends
+    }//.btn ends
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @phone{
+        width:100%
+      }
       
       img {
         width: 100%;
@@ -73,3 +123,4 @@
     }
   }
 }// home
+
